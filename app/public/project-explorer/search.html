@@ -22,10 +22,17 @@
   <h1>Search Project By</h1>
     
 <form name="searchForm">
-    <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" ><br>
-   <label> Search By:<select name="searchType">
+    <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" >
+    <br> <br>
+  <label> Search By:
+        <select name="searchType"> 
+            <option value="Name">Name</option>
+            <option value="Abstract">Abstract</option>
+            <option value="Authors">Authors</option>
+            <option value="Tags">Tags</option>
         </select>
-    </label><br><br>
+  </label>
+    <br><br>
     <input type="submit" value="search">
 </form>
 </section>
